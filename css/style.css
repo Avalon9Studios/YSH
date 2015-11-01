@@ -1,0 +1,67 @@
+.nav {
+    padding: 5px 0px;
+    background-color: #191919;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+#apply {
+    float: right;
+}
+
+.nav ul li {
+    display: inline;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0a9c90;
+    padding: 0px 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-logo {
+    margin-left: 30px;
+    width: 180px;
+    height: 100%;
+}
+
+#intro {
+    background: #191919 no-repeat center center fixed;
+    color: white;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-vcenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    height: 50px;
+    width: 50px;
+    margin-left: -15px;
+    display: block;
+    z-index: 10;
+    text-align: center;
+}

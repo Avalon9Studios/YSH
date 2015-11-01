@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>YoungStartupsIo</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+    <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+    <div class="main">
+        <section>
+            <div class="row" style="padding: 0px 0px;">
+                <div class="twelve columns">
+                    <nav class="nav">
+                        <ul>
+                            <li style="float: left;     font-weight: 300;">Young Startups</li>
+                            <div style="text-align: center">
+                                <li>Information</li>
+                                <li>Our Goal</li>
+                                <li>Who's hosting</li>
+                                <li id="apply">Apply Now</li>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div id="intro">
+                <div class="text-vcenter" id="intro-text">
+                    <h1>We want you to join our <br>Young Startups Hackathon</h1>
+                    <h5>Aere you under the age of 25? Can you design, create, or code?<br>We want you to join our Young Startups Hackathon, 36 hours where<br>business, tech, and startup knowledge collide to create the next big thing!</h5>
+                    <div class="scroll-down">
+                        <span>
+                <i class="fa fa-angle-down fa-2x"></i>
+                    </span></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="learnmore">
+        </section>
+    </div>
+
+
+    <script>
+        $(".main").onepage_scroll({
+            sectionContainer: "section", // sectionContainer accepts any kind of selector in case you don't want to use section
+            easing: "ease", // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+            // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+            animationTime: 1000, // AnimationTime let you define how long each section takes to animate
+            pagination: true, // You can either show or hide the pagination. Toggle true for show, false for hide.
+            updateURL: false, // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+            beforeMove: function (index) {}, // This option accepts a callback function. The function will be called before the page moves.
+            afterMove: function (index) {}, // This option accepts a callback function. The function will be called after the page moves.
+            loop: false, // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+            keyboard: true, // You can activate the keyboard controls
+            responsiveFallback: false, // You can fallback to normal page scroll by defining the width of the browser in which
+            // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+            // the browser's width is less than 600, the fallback will kick in.
+            direction: "vertical" // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+        });
+    </script>
+</body>
+
+</html>
