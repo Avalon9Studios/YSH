@@ -136,8 +136,6 @@ body {
     margin-left: auto;
 }
 
-
-}
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
@@ -145,6 +143,7 @@ body {
     margin-right: -15px;
     margin-left: -15px;
 }
+
 @media (min-width: 768px) {
     .container > .navbar-header,
     .container-fluid > .navbar-header,
@@ -154,8 +153,50 @@ body {
         margin-left: 0;
     }
 }
+
 #ourgoal {
-    background: url(../our_goal_main_bg.jpg) no-repeat center center fixed;
+    background: url(../our_goal_main_bg.jpg) no-repeat center center;
+    display: table;
+    color: white;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 30px 30px
+}
+
+#intro-text {}
+.white-box {
+    background-color: white;
+    color: black;
+    padding: 20px 20px;
+
+}
+
+#ourgoal_backgroundimg {
+    background: url(../Assets/our_goal_image.jpg)) no-repeat center center;
+    display: table;
+    color: white;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 30px 30px
+}
+
+#ourgoalimage {
+    padding: 20px 20px
+}
+
+#whoshosting {
+    background: url(../Assets/who_hosting_it_global.jpg) no-repeat center center;
+    color: white;
     display: table;
     height: 100%;
     position: relative;
@@ -165,7 +206,25 @@ body {
     -o-background-size: cover;
     background-size: cover
 }
+
+.text-right {
+    text-align: right;
 }
-#intro-text {
-    
+
+#hostingtext {
+    padding-top: 200px; 
+    padding-right: 50px;
+}
+
+#applynow {
+    background: url(../Assets/apply_now_bg.jpg) no-repeat center center;
+    color: white;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
 }
