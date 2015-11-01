@@ -156,6 +156,7 @@ body {
 
 #ourgoal {
     background: url(../our_goal_main_bg.jpg) no-repeat center center;
+<<<<<<< HEAD
     display: table;
     color: white;
     height: 100%;
@@ -197,6 +198,8 @@ body {
 #whoshosting {
     background: url(../Assets/who_hosting_it_global.jpg) no-repeat center center;
     color: white;
+=======
+>>>>>>> a95eaf7697f7b247c838e482cadb0fe7e3678174
     display: table;
     height: 100%;
     position: relative;
@@ -215,6 +218,7 @@ body {
     padding-top: 200px; 
     padding-right: 50px;
 }
+<<<<<<< HEAD
 
 #applynow {
     background: url(../Assets/apply_now_bg.jpg) no-repeat center center;
@@ -227,4 +231,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
+=======
+#intro-text {
+
+>>>>>>> a95eaf7697f7b247c838e482cadb0fe7e3678174
 }
