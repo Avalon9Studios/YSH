@@ -155,7 +155,7 @@ body {
     }
 }
 #ourgoal {
-    background: url(../our_goal_main_bg.jpg) no-repeat center center fixed;
+    background: url(../our_goal_main_bg.jpg) no-repeat center center;
     display: table;
     height: 100%;
     position: relative;
@@ -167,5 +167,5 @@ body {
 }
 }
 #intro-text {
-    
+
 }
