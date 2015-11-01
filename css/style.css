@@ -37,8 +37,8 @@ body {
 
 #intro {
     background: url(../Assets/main_bg.jpg) no-repeat center center fixed;
-    color: white;
     display: table;
+    color: white;
     height: 100%;
     position: relative;
     width: 100%;
@@ -153,4 +153,19 @@ body {
         margin-right: 0;
         margin-left: 0;
     }
+}
+#ourgoal {
+    background: url(../our_goal_main_bg.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+}
+#intro-text {
+    
 }
