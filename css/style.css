@@ -19,9 +19,8 @@ body {
 
 .nav ul li {
     display: inline;
-    font-weight: 500;
-    font-size: 20px;
-    color: #75c58f;
+    font-size: 18px;
+    color: white;
     padding: 0px 15px;
 }
 
@@ -74,11 +73,55 @@ body {
 .scroll-down {
     position: absolute;
     left: 50%;
-    bottom: 60px;
+    bottom: 10px;
     height: 50px;
     width: 50px;
     margin-left: -15px;
     display: block;
     z-index: 10;
     text-align: center;
+}
+
+#learnmore {
+    background: #181818 no-repeat center center fixed;
+    color: white;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+#learnmore .text-vcenter h1 {
+    color: white;
+    font-weight: 600;
+}
+
+.green {
+    color: #75c58f;
+}
+
+#learnmore .text-vcenter h6 {
+    padding: 0px 160px;
+}
+
+#learnmore .text-vcenter h6 ul {
+    list-style-type: none;
+}
+
+#learnmore .text-vcenter h6 ul li {
+    display: inline;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+#learnmore .text-vcenter h6 i {
+    color: #75c58f;
+}
+#scroll-down {
+        cursor: pointer;
+
 }

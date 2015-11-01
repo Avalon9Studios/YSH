@@ -32,7 +32,7 @@
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="Assets/favicon.png">
 
 </head>
 
@@ -68,9 +68,10 @@
                         <h1>We want you to join our <br>Young Startups Hackathon</h1>
                         <h5>Are you under the age of 25? Can you design, create, or code?<br>We want you to join our Young Startups Hackathon, 36 hours where<br>business, tech, and startup knowledge collide to create the next big thing!</h5>
                         <div class="scroll-down">
-                            <span>
-                <i class="fa fa-angle-down fa-2x"></i>
-                    </span></div>
+                            <a id="scroll-down" class="green">
+                                <span>
+                                <i class="fa fa-angle-down fa-2x"></i></span></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,9 +79,29 @@
 
 
         <section id="learnmore">
+            <div class="text-vcenter">
+                <h1>We want to organize a <span class="green">hackathon</span>.</h1>
+                <h6>Lorem ipsum dolor sit amet, faucibus delectus sed in quisque, tortor in diam nec elementum fringilla fermentum, at morbi lobortis quam congue amet a, nunc posuere. Donec praesent turpis tempor fringilla, neque quis metus felis odio. Et et dui lacus sed porta, fringilla maecenas in amet ante velit nec, id justo semper lorem ut eleifend nulla, massa eros sapien nec a, purus orci. Nisl at mauris cum, dui phasellus eget nisl, proin dignissim, sed pede, in nulla. Ipsum amet vitae nullam accumsan sit.
+</h6>
+                <br>
+                <h3 style="font-weight: 600;">Planned <span class="green">Details</span></h3>
+                <h6>
+                <ul>
+                <li>
+                <i class="fa fa-calendar-check-o"></i> June 29-31 2016</li>
+                <li><i class="fa fa-map-o"></i> San Fransico, US
+</li><li><i class="fa fa-users"></i> 150+ Participants
+</li></ul>
+</h6></div>
         </section>
     </div>
+    <script>
+        function scrllDown() {
+            $(".main").moveTo(2);
+        };
 
+        $("#scroll-down").on('click', scrllDown)
+    </script>
 
     <script>
         $(".main").onepage_scroll({
