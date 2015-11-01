@@ -121,7 +121,36 @@ body {
 #learnmore .text-vcenter h6 i {
     color: #75c58f;
 }
-#scroll-down {
-        cursor: pointer;
 
+#scroll-down {
+    cursor: pointer;
+}
+
+
+/* CONTAINER FLUID */
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+}
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 768px) {
+    .container > .navbar-header,
+    .container-fluid > .navbar-header,
+    .container > .navbar-collapse,
+    .container-fluid > .navbar-collapse {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
