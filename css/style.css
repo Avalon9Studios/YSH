@@ -1,6 +1,11 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
 .nav {
-    padding: 5px 0px;
-    background-color: #191919;
+    padding: 15px 5px;
 }
 
 .nav ul {
@@ -16,7 +21,7 @@
     display: inline;
     font-weight: 500;
     font-size: 20px;
-    color: #0a9c90;
+    color: #75c58f;
     padding: 0px 15px;
 }
 
@@ -32,7 +37,7 @@
 }
 
 #intro {
-    background: #191919 no-repeat center center fixed;
+    background: url(../Assets/main_bg.jpg) no-repeat center center fixed;
     color: white;
     display: table;
     height: 100%;
@@ -44,14 +49,22 @@
     background-size: cover;
 }
 
-.text-center {
-    text-align: center;
+#intro-text h1 {
+    font-weight: 400;
+}
+
+#intro-text h5 {
+    font-weight: 300;
 }
 
 .text-vcenter {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .scroll-down {
