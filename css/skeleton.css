@@ -340,6 +340,7 @@ input[type="button"].button-primary {
     color: #FFF;
     background-color: #75c58f;
     border-color: #75c58f;
+    transition: all .4s ease;
 }
 
 .button.button-primary:hover,
@@ -353,7 +354,14 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
     color: #FFF;
-    background-color: #64b27c;
+    background-color: rgba(117,197,143,1);
+    background: -moz-linear-gradient(left, rgba(117,197,143,1) 0%, rgba(57,168,168,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(117,197,143,1)), color-stop(100%, rgba(57,168,168,1)));
+    background: -webkit-linear-gradient(left, rgba(117,197,143,1) 0%, rgba(57,168,168,1) 100%);
+    background: -o-linear-gradient(left, rgba(117,197,143,1) 0%, rgba(57,168,168,1) 100%);
+    background: -ms-linear-gradient(left, rgba(117,197,143,1) 0%, rgba(57,168,168,1) 100%);
+    background: linear-gradient(to right, rgba(117,197,143,1) 0%, rgba(57,168,168,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75c58f', endColorstr='#39a8a8', GradientType=1 );
     border-color: #64b27c;
 }
 
