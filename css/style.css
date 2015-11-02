@@ -1,238 +1,230 @@
-html,
-body {
-    height: 100%;
-    width: 100%;
-}
-
-.nav {
-    padding: 15px 5px;
-}
-
-.nav ul {
-    list-style-type: none;
-    margin-right: 50px;
-}
-
-#apply {
-    float: right;
-}
-
-.nav ul li {
-    display: inline;
-    font-size: 18px;
-    color: white;
-    padding: 0px 15px;
-}
-
-.nav ul li a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.nav-logo {
-    margin-left: 30px;
-    width: 180px;
-    height: 100%;
-}
-
-#intro {
-    background: url(../Assets/main_bg.jpg) no-repeat center center fixed;
-    display: table;
-    color: white;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#intro .row {
-    display: table-row;
-}
-
-#intro-text h1 {
-    font-weight: 400;
-}
-
-#intro-text h5 {
-    font-weight: 300;
-}
-
-.text-vcenter {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.scroll-down {
-    position: absolute;
-    left: 50%;
-    bottom: 10px;
-    height: 50px;
-    width: 50px;
-    margin-left: -15px;
-    display: block;
-    z-index: 10;
-    text-align: center;
-}
-
-#learnmore {
-    background: #181818 no-repeat center center fixed;
-    color: white;
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
-#learnmore .text-vcenter h1 {
-    color: white;
-    font-weight: 600;
-}
-
-.green {
-    color: #75c58f;
-}
-
-#learnmore .text-vcenter h6 {
-    padding: 0px 160px;
-}
-
-#learnmore .text-vcenter h6 ul {
-    list-style-type: none;
-}
-
-#learnmore .text-vcenter h6 ul li {
-    display: inline;
-    padding: 0px 10px;
-    font-size: 16px;
-}
-
-#learnmore .text-vcenter h6 i {
-    color: #75c58f;
-}
-
-#scroll-down {
-    cursor: pointer;
-}
-
-
-/* CONTAINER FLUID */
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.container > .navbar-header,
-.container-fluid > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-@media (min-width: 768px) {
+        html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .nav {
+        padding: 15px 5px;
+    }
+    
+    .nav ul {
+        list-style-type: none;
+        margin-right: 50px;
+    }
+    
+    #apply {
+        float: right;
+    }
+    
+    .nav ul li {
+        display: inline;
+        font-size: 18px;
+        color: white;
+        padding: 0px 15px;
+    }
+    
+    .nav ul li a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .nav-logo {
+        margin-left: 30px;
+        width: 180px;
+        height: 100%;
+    }
+    
+    #intro {
+        background: url(../Assets/main_bg.jpg) no-repeat center center fixed;
+        display: table;
+        color: white;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #intro .row {
+        display: table-row;
+    }
+    
+    #intro-text h1 {
+        font-weight: 400;
+    }
+    
+    #intro-text h5 {
+        font-weight: 300;
+    }
+    
+    .text-vcenter {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .scroll-down {
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        height: 50px;
+        width: 50px;
+        margin-left: -15px;
+        display: block;
+        z-index: 10;
+        text-align: center;
+    }
+    
+    #learnmore {
+        background: #181818 no-repeat center center fixed;
+        color: white;
+        display: table;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover
+    }
+    
+    #learnmore .text-vcenter h1 {
+        color: white;
+        font-weight: 600;
+    }
+    
+    .green {
+        color: #75c58f;
+    }
+    
+    #learnmore .text-vcenter h6 {
+        padding: 0px 160px;
+    }
+    
+    #learnmore .text-vcenter h6 ul {
+        list-style-type: none;
+    }
+    
+    #learnmore .text-vcenter h6 ul li {
+        display: inline;
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+    
+    #learnmore .text-vcenter h6 i {
+        color: #75c58f;
+    }
+    
+    #scroll-down {
+        cursor: pointer;
+    }
+    /* CONTAINER FLUID */
+    
+    .container-fluid {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
     .container > .navbar-header,
     .container-fluid > .navbar-header,
     .container > .navbar-collapse,
     .container-fluid > .navbar-collapse {
-        margin-right: 0;
-        margin-left: 0;
+        margin-right: -15px;
+        margin-left: -15px;
     }
-}
-
-#ourgoal {
-    background: url(../our_goal_main_bg.jpg) no-repeat center center;
-<<<<<<< HEAD
-    display: table;
-    color: white;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 30px 30px
-}
-
-#intro-text {}
-.white-box {
-    background-color: white;
-    color: black;
-    padding: 20px 20px;
-
-}
-
-#ourgoal_backgroundimg {
-    background: url(../Assets/our_goal_image.jpg)) no-repeat center center;
-    display: table;
-    color: white;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 30px 30px
-}
-
-#ourgoalimage {
-    padding: 20px 20px
-}
-
-#whoshosting {
-    background: url(../Assets/who_hosting_it_global.jpg) no-repeat center center;
-    color: white;
-=======
->>>>>>> a95eaf7697f7b247c838e482cadb0fe7e3678174
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-}
-
-.text-right {
-    text-align: right;
-}
-
-#hostingtext {
-    padding-top: 200px; 
-    padding-right: 50px;
-}
-<<<<<<< HEAD
-
-#applynow {
-    background: url(../Assets/apply_now_bg.jpg) no-repeat center center;
-    color: white;
-    display: table;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-=======
-#intro-text {
-
->>>>>>> a95eaf7697f7b247c838e482cadb0fe7e3678174
-}
+    
+    @media (min-width: 768px) {
+        .container > .navbar-header,
+        .container-fluid > .navbar-header,
+        .container > .navbar-collapse,
+        .container-fluid > .navbar-collapse {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+    
+    #ourgoal {
+        background: url(../our_goal_main_bg.jpg) no-repeat center center fixedz;
+        display: table;
+        color: white;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding: 30px 30px
+    }
+    
+    #intro-text {}
+    
+    .white-box {
+        background-color: white;
+        color: black;
+        padding: 20px 20px;
+    }
+    
+    #ourgoal_backgroundimg {
+        background: url(../Assets/our_goal_image.jpg)) no-repeat center center;
+        display: table;
+        color: white;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding: 30px 30px
+    }
+    
+    #ourgoalimage {
+        padding: 20px 20px
+    }
+    
+    #whoshosting {
+        background: url(../Assets/who_hosting_it_global.jpg) no-repeat center center;
+        color: white;
+        =======>>>>>>> a95eaf7697f7b247c838e482cadb0fe7e3678174=======background: url(../our_goal_main_bg.jpg) no-repeat center center fixed;
+        >>>>>>> 35c5851c111d8fb80ac31d3dfcfef5781403fb4d display: table;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover
+    }
+    
+    .text-right {
+        text-align: right;
+    }
+    
+    #hostingtext {
+        padding-top: 200px;
+        padding-right: 50px;
+    }
+    
+    <<<<<<< HEAD #applynow {
+        background: url(../Assets/apply_now_bg.jpg) no-repeat center center;
+        color: white;
+        display: table;
+        height: 100%;
+        position: relative;
+        width: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover=======#intro-text {
+            <<<<<<< HEAD >>>>>>> a95eaf7697f7b247c838e482cadb0fe7e3678174=======>>>>>>> 35c5851c111d8fb80ac31d3dfcfef5781403fb4d
+        }
